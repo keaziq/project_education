@@ -7,5 +7,5 @@ from fastapi.responses import HTMLResponse
 app = FastAPI()
 
 
-@app.get("/")
+@app.get("/"):
 
