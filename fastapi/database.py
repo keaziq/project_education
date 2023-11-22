@@ -30,8 +30,5 @@ class Kategori (Base):
 SessionLocal = sessionmaker(autoflush=False, bind=engine)
 db = SessionLocal()
 
-data = db.query(Data).all()
-for i in data:
-    print(f"{i.id}.{i.head} {i.picture} {i.text}")
 
 app = FastAPI()

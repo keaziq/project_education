@@ -39,9 +39,8 @@ nav a {
     border-radius: 4px;
     transition: background-color 0.3s;
 }
-nav p {
-    color:black;
-}
+
+
 
 nav a:hover {
     background-color: #bbbaba;
@@ -348,6 +347,9 @@ table{
     font-size: 22px;
 
 }
+.data{
+    display: none;
+}
 
 
 
@@ -356,9 +358,26 @@ table{
 
 
 
+.fastapi {
+    padding: 5em;
+    display: grid;
+    grid-gap: 80px;
+    width: 70%;
 
+}
+.fastapi img {
+    width: 60%;
 
-
+    padding: 5%;
+}
+.fastapi h3{
+    font-size: 45px;
+    width: 80%;
+}
+.fastapi p{
+    font-size: 25px;
+    width: 80%;
+}
 
 
 
